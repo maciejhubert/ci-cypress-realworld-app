@@ -5,4 +5,5 @@ orbs:
 workflows:
   e2e-tests:
     jobs:
-      - cypress/run
+      - cypress/run:
+          yarn: true
