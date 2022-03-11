@@ -8,6 +8,7 @@ executors:
       - image: 'cypress/base:14.17.0'
 
 
+
 workflows:
   e2e-tests:
     jobs:
